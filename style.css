@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    border: 4px solid black;
+    margin: 10rem auto;
+    max-width: 30rem;
+    width: 80%;
+}
+
+header {
+    padding: 3rem;
+    background-image: url("http://www.wallcoo.net/cartoon/abstract_colors_2560x1600_0902/images/abstract_colors_dream_series_Blue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1#score {
+    margin: 0;
+    font-size: 3rem;
+}
+
+label[for="maxScore"] {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+form input[type="text"] {
+    width: 15%;
+}

@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <header>
+        <h1 id="score">
+            <span id="player1">0</span>
+            <span>to</span>
+            <span id="player2">0</span>
+        </h1>
+
+        <h3>
+            <span>Playing to: </span>
+            <span id="scoreTo" name="scoreTo">0</span>
+        </h3>
+
+        <form>
+            <label for="maxScore">Max Score</label>
+            <input type="text" id="maxScore" name="maxScore">
+
+            <button id="P1Button" name="P1Button">Player 1</button>
+            <button id="P2Button" name="P2Button">Player 2</button>
+            <button id="resetButton" name="resetButton">Reset</button>
+        </form>
+    </header>
+
+
+    <script src="app.js"></script>
 </body>
 </html>
