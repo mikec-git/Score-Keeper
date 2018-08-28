@@ -23,6 +23,11 @@ label[for="maxScore"] {
     font-weight: 800;
 }
 
-form input[type="text"] {
+input[type="number"] {
     width: 15%;
+    text-align: right;
+}
+
+.winner {
+    color: green;
 }
